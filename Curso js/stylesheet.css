@@ -1,0 +1,29 @@
+header {
+  background: url(./assets/Fondo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 50rem;
+}
+.main-header {
+  display: flex;
+  float: right;
+}
+.main-header-img {
+  display: flex;
+  float: left;
+  margin: 30px;
+  height: 6rem;
+}
+.main-header-ul {
+  display: flex;
+  list-style-type:none;
+}
+
+li {
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 40px;
+  margin-top: 5%;
+}   
